@@ -8,6 +8,10 @@ h2.quote {
 
 }
 
+div.container {
+    display: flex;
+    flex-direction: column;
+}
 
 section.conteudo {
     display: flex;
@@ -22,6 +26,8 @@ img {
 }
 
 div.textos {
+    display: flex;
+    flex-direction: column;
     color: azure;
     font-size: 1.3rem;
     padding: 20px;
