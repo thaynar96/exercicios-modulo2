@@ -1,0 +1,41 @@
+h2.quote {
+    margin: 0 auto;
+    padding: 40px;
+    background-color: azure;
+    width: 40%;
+    color: rgb(97, 10, 155);
+    border-radius: 35px;
+
+}
+
+
+section.conteudo {
+    display: flex;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid azure;
+    margin: 20px 20px;
+}
+
+div.textos {
+    color: azure;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+span {
+    color: rgb(8, 255, 132);
+}
+
+footer {
+    margin: 0 auto;
+    width: 350px;
+}
+
+button {
+    display: inline-block;
+}
