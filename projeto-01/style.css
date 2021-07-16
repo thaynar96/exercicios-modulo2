@@ -1,0 +1,42 @@
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A2E1DD;
+    margin: 40px 0;
+}
+
+.principal {
+    margin: 0 auto;
+    background: linear-gradient(192.44deg, #C4C4C4 31.88%, rgba(196, 196, 196, 0) 90.96%);
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1190px;
+    height: 692px;
+}
+
+.principal h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.personagens {
+    display: flex;
+    flex-direction: row;
+}
+
+.personagens a img {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.personagens h2 {
+    margin-left: 220px;
+}
