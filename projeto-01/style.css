@@ -1,18 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 * {
-    font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #A2E1DD;
+    background-color: #e952ee83;
     margin: 40px 0;
+    font-family: 'Russo One', sans-serif;
+    color: rgb(95, 28, 28);
 }
 
 .principal {
     margin: 0 auto;
-    background: linear-gradient(192.44deg, #C4C4C4 31.88%, rgba(196, 196, 196, 0) 90.96%);
+    background: linear-gradient(192.44deg, #88b9e7 31.88%, rgba(196, 196, 196, 0) 90.96%);
     border-radius: 70px;
     display: flex;
     flex-direction: column;
@@ -20,11 +23,12 @@ body {
     justify-content: center;
     width: 1190px;
     height: 692px;
+    box-shadow: 2px 5px 20px rgb(81, 109, 163);
 }
 
 .principal h1 {
     font-size: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .personagens {
@@ -32,11 +36,33 @@ body {
     flex-direction: row;
 }
 
-.personagens a img {
+.personagens img {
+    border-radius: 50%;
     margin-top: 40px;
     margin-left: 80px;
 }
 
 .personagens h2 {
     margin-left: 220px;
+}
+
+.personagens .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personagens .conteudo button {
+    padding: 15px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        linear-gradient(196.2deg, #e7b7da 10.57%, rgba(206, 220, 230, 10) 88.75%);
+    box-shadow: 2px 5px 10px rgb(81, 109, 163);
+    cursor: pointer;
+    border: none;
+    border-radius: 80px;
+    margin-left: 80px;
+    width: 200px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
 }

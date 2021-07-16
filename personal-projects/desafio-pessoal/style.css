@@ -110,6 +110,9 @@ div.conteudo p {
     margin-bottom: 40px;
 }
 
+button{
+    font-size: 10px;
+}
 div.conteudo button {
 
     width: 250px;
