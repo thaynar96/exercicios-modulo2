@@ -110,9 +110,10 @@ div.conteudo p {
     margin-bottom: 40px;
 }
 
-button{
+button {
     font-size: 10px;
 }
+
 div.conteudo button {
 
     width: 250px;
@@ -133,7 +134,7 @@ section#aboutme {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #6d356791;
+    background-color: rgba(109, 53, 103, 0.569);
 }
 
 section#aboutme h2 {
@@ -162,3 +163,46 @@ section#aboutme div img {
 
 }
 
+section#contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    font-weight: 500;
+    height: 550px;
+    background: linear-gradient(180deg, #a54a9c 21.36%, rgba(243, 218, 184, 0.787) 231.07%);
+    padding: 15px 40px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    border-radius: 10px;
+}
+
+form input {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+form label {
+    color: #f1ccee;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+form textarea {
+    height: 40%;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+section#contact form button {
+    margin-top: 20px;
+    font-size: 18px;
+}

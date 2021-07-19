@@ -18,7 +18,7 @@
             </ul>
         </nav>
         <a href="
-        #"><button>Contact</button></a>
+        #contact"><button>Contact</button></a>
     </header>
     <section class="first">
     <div class="conteudo">
@@ -40,5 +40,20 @@
             <img src="https://www.gupy.io/hubfs/HR-tech.jpg" alt="">
         </div>
     </section>
+
+    <section id="contact">
+        <form action="">
+            <label for="nome">Nome:</label> <input type="text" id="nome">
+            <label for="password">Email:</label> <input type="password" id="password">
+            <label for="comentario">Descrição</label><textarea id="comentario"></textarea>
+            <button type="submit" onclick="mensagem()">Enviar</button>
+
+        </form>
+    </section>
+    <script type="text/javascript">
+        function mensagem(){
+            alert('Enviado com sucesso')
+        }
+    </script>
 </body>
 </html>
