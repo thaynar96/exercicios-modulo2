@@ -8,13 +8,19 @@
 
 body {
     background-color: #e952ee83;
-    margin: 40px 0;
     font-family: 'Russo One', sans-serif;
     color: rgb(95, 28, 28);
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .principal {
-    margin: 0 auto;
     background: linear-gradient(192.44deg, #88b9e7 31.88%, rgba(196, 196, 196, 0) 90.96%);
     border-radius: 70px;
     display: flex;

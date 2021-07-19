@@ -1,5 +1,5 @@
-var btn = document.getElementById('humor');
-var homem = document.getElementById('homem');
+const btn = document.getElementById('humor');
+const homem = document.getElementById('homem');
 btn.onclick = function(){
     if(btn.value === "trocar"){
         homem.src = 'img/homem-feliz.png';
