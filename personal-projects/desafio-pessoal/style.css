@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 
@@ -22,6 +23,10 @@ header {
     padding: 30px 10%;
     background-color: #7B1B72;
 
+}
+
+header button {
+    font-size: 15px;
 }
 
 .logo {
@@ -75,7 +80,7 @@ section.first {
     align-content: center;
 }
 
-section img {
+section.first img {
     width: 672px;
     height: 649px;
 }
@@ -163,7 +168,61 @@ section#aboutme div img {
 
 }
 
+section#aboutme h2 {
+    color: #403434;
+}
+
+
+section#second {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+section#second h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+section#second img {
+    width: 400px;
+    height: 200px;
+}
+
+section#second p {
+    padding: 30px;
+    line-height: 25px;
+
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pattern {
+    width: 400px;
+
+    background: linear-gradient(180deg, #aa78aa 21.36%, rgba(243, 218, 184, 0.787) 231.07%);
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.452);
+
+}
+
+.projects {
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
 section#contact {
+    background-color: rgba(109, 53, 103, 0.569);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -172,10 +231,10 @@ section#contact {
 
 form {
     font-weight: 500;
-    height: 550px;
-    background: linear-gradient(180deg, #a54a9c 21.36%, rgba(243, 218, 184, 0.787) 231.07%);
+    height: 650px;
+    width: 600px;
+    background: linear-gradient(180deg, #640a5d 21.36%, rgba(207, 39, 185, 0.787) 231.07%);
     padding: 15px 40px;
-    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -205,4 +264,8 @@ form textarea {
 section#contact form button {
     margin-top: 20px;
     font-size: 18px;
+}
+
+section#second h1 {
+    color: #403434;
 }
