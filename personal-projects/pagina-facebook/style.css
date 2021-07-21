@@ -54,14 +54,15 @@ form {
     align-items: center;
     background-color: #FFFFFF;
     padding: 2em;
-    border-radius: 0.6em;
+    border-radius: 0.8em;
     width: 395px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 
 }
 
 .group2 input {
     padding: 1.4em;
-    width: 33rem;
+    width: 33.9rem;
     height: 2.2rem;
     border-radius: 0.6em;
     border: 1px solid #dddfe2;
@@ -90,7 +91,7 @@ input:focus {
     font-weight: 600;
     background-color: #1877f2;
     padding: 0 1.6rem;
-    width: 33rem;
+    width: 33.9rem;
     line-height: 4.8rem;
     cursor: pointer;
 }
