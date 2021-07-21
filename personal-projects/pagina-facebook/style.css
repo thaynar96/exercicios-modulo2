@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 70vh;
 }
 
 .group1 {
@@ -34,7 +34,7 @@ body {
 }
 
 .group1 img {
-    width: 30rem;
+    width: 25rem;
 }
 
 .group1 p {
@@ -92,6 +92,9 @@ hr {
     margin: 2rem 1.6rem;
     background-color: #dddfe2;
     width: 33rem;
+    height: 0.05rem;
+    border: none;
+
 }
 
 .group2 button.green {
