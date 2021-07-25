@@ -51,7 +51,8 @@ body {
 }
 
 .comment {
-    padding: 1.3rem;
+    padding: 1rem;
+    color: aliceblue;
     background-color: rgba(51, 29, 49, 0.569);
 
 }

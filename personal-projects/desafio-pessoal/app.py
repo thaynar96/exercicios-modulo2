@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect
 import smtplib
 import os
 
+
 app = Flask(__name__)
 
 
@@ -25,7 +26,6 @@ def subscribe():
     server.sendmail("thaynarbo@gmail.com",
                     email2, f'Oi Thay! Você tem um contado do {name}, o email do contato é {email} e a mensagem {comment}'.encode('utf-8'))
     return render_template('subscribe.html',name=name,email=email,comment=comment)
-
 
 if __name__ == '__main__':
     app.run(debug=True)
