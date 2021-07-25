@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../img/logo.png" alt="">
+
+        <nav>
+            <ul class="nav_link">
+                <li><a href="#aboutme">About me</a></li>
+                <li><a href="#second">Projects</a></li>
+            </ul>
+        </nav>
+        <a href="
+        #contact"><button>Contact</button></a>
+    </header>
+    <section class="first">
+        <div class="conteudo">
+            <h1>Hi! I am<br>Thaynar Brandão</h1>
+            <p>I'm currently studying at BlueEdtech and I've got a lot of plans. This is a personal project I started
+                after few lessons of CSS. I hope you enjoy!</p>
+            <button>Contact me</button>
+        </div>
+        <img src="../static/img/foto-minha.png" alt="">
+    </section>
+
+    <section id="aboutme">
+        <h2>About me</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt cum et repudiandae tempore temporibus
+            recusandae vero ut ducimus, nam, architecto eligendi ipsam accusamus aliquam doloremque sapiente reiciendis
+            culpa modi amet. Deserunt tempore ex quidem dolore laboriosam recusandae, quae porro voluptates.</p>
+
+        <div>
+            <img src="https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info "
+                alt="">
+            <img src="https://siliconcanals.com/wp-content/uploads/2019/08/airplane-travel-tip.jpg" alt="">
+            <img src="https://www.gupy.io/hubfs/HR-tech.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="second">
+        <h1>Projects</h1>
+        <div class="card-wrapper">
+            <div class="pattern">
+            <div class="card1">
+                    <img src="../static/img/projeto1.png" alt="">
+                    <p>O primeiro projeto que eu fiz na BlueEdtech. Eu precisei criar arquivos HTML,CSS e JavaScript. O objetivo do projeto era que ao clicar no botão as fotos de humor adicionadas fossem trocadas.</p>
+                        <a href="https://project-01-woad.vercel.app/"><button class="projects" >Go to project</button></a>
+                </div>
+                </div>
+            
+            <div class="pattern">
+                <div class="card2">
+                    <img src="../static/img/projeto-2.png" alt="">
+                    <p>O segundo projeto foi desenvolvido como um desafio pessoal. Utilizei HTML e CSS. Esse foi um projeto de landing page responsivo e que possui multiplas seções </p>
+                        <a href="https://medium.com/@jezmael/como-validar-os-dados-de-um-formul%C3%A1rio-com-javascript-abdc5a5fba67"><button class="projects">Go to project</button></a>
+                </div>
+            </div>
+            <div class="pattern">
+                <div class="card3">
+                    <img src="../static/img/projeto-3.png" alt="">
+                    <p>O terceiro projeto foi criado também a titulo de pratica. Recriei a página de login do instagram e a deixei responsiva com a utilização do flex e media queries.</p>
+                        <a href="https://medium.com/@jezmael/como-validar-os-dados-de-um-formul%C3%A1rio-com-javascript-abdc5a5fba67"></a><button class="projects">Go to project</button></a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <form action="/subscribe" method="POST">
+            <label for="name">Nome:</label> <input type="text" id="name" name='name' value="{{name}}">
+            <label for="email">Email:</label> <input type="email" id="email" name='email'value="{{Email}}">
+            <label for="comment">Descrição</label><textarea id="comment" name='comment'
+            value="{{comment}}"></textarea>
+            <button  onclick=validar()>Enviar</button>
+
+        </form>
+    </section>
+    <script type="text/javascript" src="../static/script.js"></script>
+</body>
+
+</html>

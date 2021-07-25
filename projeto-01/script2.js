@@ -1,5 +1,5 @@
-var btn2 = document.getElementById('humor2');
-var mulher = document.getElementById('mulher');
+const btn2 = document.getElementById('humor2');
+const mulher = document.getElementById('mulher');
 
 btn2.onclick = function(){
     if(btn2.value === "trocar"){

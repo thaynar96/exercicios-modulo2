@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.um {
+    cursor: pointer;
+    background-image: url('https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2021/04/07183228/pizza.jpg');
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    color: #3f3232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(0%);
+}
+
+
+.dois {
+    cursor: pointer;
+    background-image: url('https://www.nonoludovico.com.br/wp-content/uploads/2019/12/pizza-de-frango-nono-ludovico.png');
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(0%);
+}
+
+.tres {
+    background-image: url('https://img.itdg.com.br/tdg/images/blog/uploads/2017/03/shutterstock_522293875.jpg');
+    background-size: cover;
+    cursor: pointer;
+    background-color: seagreen;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(0%);
+}
+
+.botoes {
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+form {
+    background-color: rgba(212, 197, 197, 0.65);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: aliceblue
+}
+
+label {
+    margin: 15px 0;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-wrapper .botao {
+    margin-top: 20px;
+    width: 95px;
+    height: 70px;
+    align-self: center;
+}
+
+.form-wrapper h3 {
+    margin-top: 20px;
+}
+
+.fundo {
+    width: 100vw;
+    height: 150vh;
+    background-image: url("https://cdn.pixabay.com/photo/2020/03/25/21/05/pizza-4968645_1280.jpg");
+    background-size: cover;
+}
