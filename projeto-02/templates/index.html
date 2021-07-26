@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <img class="logo" src="../img/logo.png" alt="">
+        <img class="logo" src="../static/img/logo.png" alt="">
 
         <nav>
             <ul class="nav_link">
@@ -27,16 +27,14 @@
             <h1>Hi! I am<br>Thaynar Brandão</h1>
             <p>I'm currently studying at BlueEdtech and I've got a lot of plans. This is a personal project I started
                 after few lessons of CSS. I hope you enjoy!</p>
-            <button>Contact me</button>
+            <a href="#contact"><button>Contact me</button></a>
         </div>
         <img src="../static/img/foto-minha.png" alt="">
     </section>
 
     <section id="aboutme">
         <h2>About me</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt cum et repudiandae tempore temporibus
-            recusandae vero ut ducimus, nam, architecto eligendi ipsam accusamus aliquam doloremque sapiente reiciendis
-            culpa modi amet. Deserunt tempore ex quidem dolore laboriosam recusandae, quae porro voluptates.</p>
+        <p>I've worked as an English teacher in Brazil for over 4 years. The experience of communicating with others and making a difference in their lives was amazing. In the year of 2021 I've decided to focus on programming. I'd had contact with technology since I was little and this world of development got me. I've been creating websites with CSS, HTML and JavaScript. If you're looking for a hardworking person that is commited to working and studying for many hours, send me a message and I'll do my best to level up your company's value.</p>
 
         <div>
             <img src="https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info "
@@ -52,7 +50,7 @@
             <div class="pattern">
             <div class="card1">
                     <img src="../static/img/projeto1.png" alt="">
-                    <p>O primeiro projeto que eu fiz na BlueEdtech. Eu precisei criar arquivos HTML,CSS e JavaScript. O objetivo do projeto era que ao clicar no botão as fotos de humor adicionadas fossem trocadas.</p>
+                    <p>The first project I did as a student. I had to create files in Html, Css and JavaScript. The main goul of the project was to change the face expressions to demonstrate the humor of the character.</p>
                         <a href="https://project-01-woad.vercel.app/"><button class="projects" >Go to project</button></a>
                 </div>
                 </div>
@@ -60,14 +58,14 @@
             <div class="pattern">
                 <div class="card2">
                     <img src="../static/img/projeto-2.png" alt="">
-                    <p>O segundo projeto foi desenvolvido como um desafio pessoal. Utilizei HTML e CSS. Esse foi um projeto de landing page responsivo e que possui multiplas seções </p>
+                    <p>The second project was developed as personal one.I've used Html and Css. The idea was to create a responsive website with as many sections as possible, so I could practice. </p>
                         <a href="https://medium.com/@jezmael/como-validar-os-dados-de-um-formul%C3%A1rio-com-javascript-abdc5a5fba67"><button class="projects">Go to project</button></a>
                 </div>
             </div>
             <div class="pattern">
                 <div class="card3">
                     <img src="../static/img/projeto-3.png" alt="">
-                    <p>O terceiro projeto foi criado também a titulo de pratica. Recriei a página de login do instagram e a deixei responsiva com a utilização do flex e media queries.</p>
+                    <p>The third project is also a personal one. I've created instagram's homepage. I've only used CSS flexbox and media queries to make it responsive.</p>
                         <a href="https://medium.com/@jezmael/como-validar-os-dados-de-um-formul%C3%A1rio-com-javascript-abdc5a5fba67"></a><button class="projects">Go to project</button></a>
                 </div>
             </div>
@@ -80,11 +78,11 @@
     <section id="contact">
 
         <form action="/subscribe" method="POST">
-            <label for="name">Nome:</label> <input type="text" id="name" name='name' value="{{name}}" required>
+            <label for="name">Name:</label> <input type="text" id="name" name='name' value="{{name}}" required>
             <label for="email">Email:</label> <input type="email" id="email" name='email'value="{{Email}}" required>
-            <label for="comment">Descrição</label><textarea id="comment" name='comment'
+            <label for="comment">Message</label><textarea id="comment" name='comment'
             value="{{comment}}" placeholder="Escreva no máximo 50 palavras."required></textarea>
-            <button id="btn">Enviar</button>
+            <button id="btn">Send</button>
             <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
         </form>
     </section>
