@@ -15,17 +15,18 @@ def index():
 def subscribe():
     name = request.form.get("name")
     email = request.form.get("email")
-    email2 = "thaynarbo@gmail.com"
+    email2 = "testesthay@gmail.com"
     comment = request.form.get("comment")
 
     message = "Obrigada por entrar em contato. Eu te retorno assim que possível."
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login("thaynarbo@gmail.com", os.getenv('gmailpassword'))
-    server.sendmail("thaynarbo@gmail.com", email, message.encode('utf-8'))
-    server.sendmail("thaynarbo@gmail.com",
+    server.login("testesthay@gmail.com", 'SENHABLUE@!')
+    server.sendmail("testesthay@gmail.com", email, message.encode('utf-8'))
+    server.sendmail("testesthay@gmail.com",
                     email2, f'Oi Thay! Você tem um contado do {name}, o email do contato é {email} e a mensagem {comment}'.encode('utf-8'))
-    return render_template('subscribe.html',name=name,email=email,comment=comment)
+    return render_template('subscribe.html', name=name, email=email, comment=comment)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
